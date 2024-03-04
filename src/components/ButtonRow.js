@@ -29,19 +29,19 @@ const ButtonRow = () => {
         <View style={styles.buttonContainer}>
           <Icon name={'plus'} size={responsiveWidth(5)} color={'#fff'} />
         </View>
-        <Text style={styles.buttonText}>Buy</Text>
+        <Text style={styles.buttonText}>Buyyy</Text>
       </TouchableOpacity>
       <TouchableOpacity onPress={() => navigation.navigate('Send')}>
         <View style={styles.buttonContainer}>
           <Icon name={'share'} size={responsiveWidth(5)} color={'#fff'} />
         </View>
-        <Text style={styles.buttonText}>Send</Text>
+        <Text style={styles.buttonText}>Senddd</Text>
       </TouchableOpacity>
       <TouchableOpacity onPress={copyToClipboard}>
         <View style={styles.buttonContainer}>
           <Icon name={'copy'} size={responsiveWidth(5)} color={'#fff'} />
         </View>
-        <Text style={styles.buttonText}>Copy</Text>
+        <Text style={styles.buttonText}>Copyyy</Text>
       </TouchableOpacity>
     </View>
   );
